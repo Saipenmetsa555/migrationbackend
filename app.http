@@ -1,0 +1,15 @@
+POST http://localhost:4000/connection
+Content-Type: application/json
+
+{
+    "connectionUrl":"mongodb+srv://mdmadmin:sss@migmdbcluster-1.dlb5ekt.mongodb.net/?retryWrites=true&w=majority"
+}
+
+###
+GET http://localhost:4000/details
+
+###
+GET http://localhost:4000/values
+
+### 
+GET http://localhost:40000/systemConnectionMetaDataType
